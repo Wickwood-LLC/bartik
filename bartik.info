@@ -1,8 +1,8 @@
 
 name = Bartik
-description = A flexible, recolorable theme with many regions.
+description = A flexible, recolorable theme with many regions.  Customized for the Kateri Peace Conference Website.
 package = Core
-version = VERSION
+version = 1.x-dev-kateri
 core = 7.x
 engine = phptemplate
 
