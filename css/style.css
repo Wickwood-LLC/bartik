@@ -1350,7 +1350,12 @@ div.admin-panel .description {
  * Social Media Widgets styles.
  */
 div.widgets-element-horizontal {
-  float: left; /* LTR */
+  float: none; /* LTR */
   margin: 1px;
+  display: inline-block;
+  vertical-align: top;
+}
+#widgets-element-socialmedia_addthis-google-plusone {
+  width: 51px;
 }
 
