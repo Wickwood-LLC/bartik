@@ -194,6 +194,11 @@ ul.tips {
   padding: 0 0 0 1.25em; /* LTR */
 }
 
+.toolbar-shortcuts ul li {
+  font-size: .846em;
+  margin: 0 0 0 0.5em;
+}
+
 /* ------------------ Header ------------------ */
 
 #skip-link {
