@@ -169,6 +169,16 @@ tr.even {
   padding: 0 1em 0 0;
 }
 
+.field-name-body table {
+  margin: 0 auto;
+}
+.field-name-body table tr {
+  background-color: transparent;
+}
+.field-name-body table img {
+  border: 1px solid #785fa0;
+}
+
 /* ------------------ List Styles ------------------ */
 
 .block ul {
