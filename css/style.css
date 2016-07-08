@@ -169,6 +169,17 @@ tr.even {
   padding: 0 1em 0 0;
 }
 
+.field-name-body .panel {
+  border: 1px solid #785fa0;
+  background-color: #efefef;
+  padding: 8px;
+}
+.field-name-body .panel .box-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+}
+
 .field-name-body table {
   margin: 0 auto;
 }
