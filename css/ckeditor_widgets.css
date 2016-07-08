@@ -146,10 +146,13 @@
 	margin-right: 0;
 	padding: 2px 5px;
 }
+.quotebox .byline {
+	text-align: right;
+}
 
 .box .box-content,
 .quotebox .quote {
-	min-height: 3em;
+	/*min-height: 3em;*/
 }
 
 .box .box-title p,
