@@ -1,7 +1,7 @@
 /* Bootstrap styles */
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  /*margin-left: -15px;
+  margin-right: -15px;*/
 }
 .row:before, .row:after {
   content: " ";
@@ -76,7 +76,7 @@
 }
 .two-col-right .col-sidebar,
 .two-col-left .col-sidebar {
-	padding: 0;
+	padding: 15px 0;
 }
 .two-col .col-2 {
   margin-left: 9px;
