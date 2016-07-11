@@ -121,6 +121,13 @@ a.feed-icon {
   padding: 15px 0 0 0;
 }
 
+figure {
+  border: 1px solid purple;
+}
+figure > figcaption {
+  text-align: center;
+}
+
 /* ------------------ Table Styles ------------------ */
 
 table {
