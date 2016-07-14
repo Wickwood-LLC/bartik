@@ -146,9 +146,6 @@
 	margin-right: 0;
 	padding: 2px 5px;
 }
-.quotebox .byline {
-	text-align: right;
-}
 
 .box .box-content,
 .quotebox .quote {
@@ -176,4 +173,10 @@
 .quotebox .quote {
 	margin-left: 20px;
 	margin-bottom: 5px;
+}
+
+.panel {
+  border: 1px solid #785fa0;
+  background-color: #efefef;
+  padding: 8px;
 }

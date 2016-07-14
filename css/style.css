@@ -181,11 +181,6 @@ tr.even {
   background-color: #efefef;
   padding: 8px;
 }
-.field-name-body .panel .box-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1em;
-}
 
 .field-name-body table {
   margin: 0 auto;
