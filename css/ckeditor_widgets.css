@@ -103,7 +103,8 @@
 .two-col-right .col-md-9{
   /*margin-right: 8px;*/
 }
-.two-col-left .col-sidebar{
+.two-col-left .col-sidebar,
+.two-col-right .col-md-9{
 	margin: 0;
 }
 
