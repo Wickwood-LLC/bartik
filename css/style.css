@@ -551,6 +551,7 @@ dd {
 .content p > img {
   border: 1px solid #785fa0;
   box-sizing: border-box;
+  display: inline-block;
 }
 
 /* ----------------- Comments ----------------- */
