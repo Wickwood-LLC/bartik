@@ -122,10 +122,11 @@ a.feed-icon {
 }
 
 figure {
-  border: 1px solid purple;
+  border: 1px solid #785fa0;
 }
 figure > figcaption {
   text-align: center;
+  padding: .3em 1em .3em;
 }
 
 /* ------------------ Table Styles ------------------ */
@@ -174,12 +175,6 @@ tr.even {
 }
 #block-system-main table ul.links li {
   padding: 0 1em 0 0;
-}
-
-.field-name-body .panel {
-  border: 1px solid #785fa0;
-  background-color: #efefef;
-  padding: 8px;
 }
 
 .field-name-body table {
@@ -545,6 +540,16 @@ dt {
 }
 dd {
   margin-bottom: 1em;
+}
+
+.field-name-body .panel {
+  border: 1px solid #785fa0;
+  background-color: #efefef;
+  padding: 8px;
+}
+
+.content p > img {
+  border: 1px solid #785fa0;
 }
 
 /* ----------------- Comments ----------------- */
