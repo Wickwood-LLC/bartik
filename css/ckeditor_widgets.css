@@ -148,6 +148,7 @@
 }
 .quotebox .byline {
 	text-align: right;
+	font-style: italic;
 }
 
 .box .box-content,
@@ -176,10 +177,16 @@
 .quotebox .quote {
 	margin-left: 20px;
 	margin-bottom: 5px;
+	font-size: 1.2em;
 }
 
 .panel {
-  border: 1px solid #785fa0;
-  background-color: #efefef;
-  padding: 8px;
+	border: 1px solid #785fa0;
+	background-color: #efefef;
+	padding: 8px;
+}
+.panel .panel-heading {
+	text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
 }

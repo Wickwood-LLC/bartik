@@ -173,6 +173,7 @@ table.cke_editor fieldset {
 }
 .quotebox .byline {
 	text-align: right;
+	font-style: italic;
 }
 
 .box .box-content,
@@ -207,4 +208,9 @@ table.cke_editor fieldset {
   border: 1px solid #785fa0;
   background-color: #efefef;
   padding: 8px;
+}
+.panel .panel-heading {
+	text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
 }
