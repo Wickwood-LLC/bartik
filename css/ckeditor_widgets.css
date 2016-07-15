@@ -107,6 +107,10 @@
 .two-col-right .col-md-9{
 	margin: 0;
 }
+.three-col .col-md-4{
+	padding-left: 0;
+	padding-right: 0;
+}
 
 .accordion {
 	padding-top: 2px;
