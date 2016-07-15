@@ -78,24 +78,24 @@
 .two-col-left .col-md-9,
 .two-col-right .col-md-3,
 .two-col-right .col-md-9 {
-	margin: -3px;
+	/*margin: -3px;*/
 }
 .two-col-right .col-sidebar,
 .two-col-left .col-sidebar {
 	padding: 15px 0;
 }
 .two-col .col-2 {
-  margin-left: 9px;
+  /*margin-left: 9px;*/
 }
 .three-col .col-1 {
-	margin-left: -3px;
+	/*margin-left: -3px;*/
 }
 .three-col .col-2 {
-	margin-left: 3px;
+	/*margin-left: 3px;*/
 }
 .three-col .col-3 {
-	margin-left: 3px;
-  margin-right: -3px;
+	/*margin-left: 3px;*/
+  /*margin-right: -3px;*/
 }
 .two-col-left .col-md-9{
   /*margin-left: 8px;*/
