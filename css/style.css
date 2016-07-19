@@ -554,6 +554,10 @@ dd {
   display: inline-block;
 }
 
+.content img {
+  margin: auto;
+}
+
 /* ----------------- Comments ----------------- */
 
 #comment-wrapper {
