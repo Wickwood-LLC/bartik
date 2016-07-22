@@ -216,7 +216,7 @@ table.cke_editor fieldset {
 }
 
 .media-element {
-	display: inline;
+	display: inline-block;
 }
 .media-element .content {
 	display: inline-block;
