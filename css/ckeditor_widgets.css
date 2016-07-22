@@ -205,16 +205,16 @@
     font-weight: bold;
 }
 
-.media-element {
+.media-element-container {
 	display: inline-block;
 }
-.media-element .content {
+.media-element-container .content {
 	display: inline-block;
     background: #efefef;
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid purple;
 }
-.media-element .field-name-field-caption {
+.media-element-container .field-name-field-caption {
 	display: block;
     margin-top: -4px;
     padding: .3em 1em .6em;
