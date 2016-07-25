@@ -143,3 +143,29 @@ function bartik_page_alter(&$page) {
     }
   }
 }
+
+/**
+ * Implements hook_media_wysiwyg_token_to_markup_alter().
+ */
+function bartik_media_wysiwyg_token_to_markup_alter(&$element, $tag_info, $settings) {
+
+  $file = $tag_info['file'];
+  if (!empty($settings['wysiwyg']) || empty($file) || 'image' != $file->type) {
+    return;
+  }
+  $wrapper = entity_metadata_wrapper('file', $file);
+
+  $styles = $wrapper->field_alignment->value();
+  if (!empty($styles)) {
+    foreach ($styles as $style) {
+      $element['content']['#attributes']['class'][] = $style;
+    }
+  }
+  
+  // $link = $wrapper->field_myimagelinkfield->value();
+  // if (!empty($link['url'])) {
+  //   $url = url($link['url']);
+  //   $element['content']['file']['#prefix'] = sprintf('<a href="%s">', $url);
+  //   $element['content']['file']['#suffix'] = '</a>';
+  // }
+}
