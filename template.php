@@ -161,6 +161,9 @@ function bartik_media_wysiwyg_token_to_markup_alter(&$element, $tag_info, $setti
       $element['content']['#attributes']['class'][] = $style;
     }
   }
+
+  dpm($wrapper);
+  dpm($styles);
   
   // $link = $wrapper->field_myimagelinkfield->value();
   // if (!empty($link['url'])) {
