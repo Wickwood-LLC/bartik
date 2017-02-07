@@ -214,6 +214,7 @@
     background: #efefef;
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid purple;
+    margin-top: 0;
 }
 .media-element-container .field-name-field-caption {
 	display: block;
