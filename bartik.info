@@ -11,7 +11,7 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/colors.css
 stylesheets[print][] = css/print.css
 stylesheets[all][] = css/maintenance-page.css
-stylesheets[all][] = css/ckeditor_widgets.css
+stylesheets[all][] = css/wysiwyg_widgets.css
 
 scripts[] = scripts/search.js
 
