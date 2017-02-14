@@ -205,7 +205,6 @@ table.cke_editor fieldset {
 	margin-bottom: 0; 
 } 
  
- 
 .box .box-title { 
 	background: #ddd; 
 } 
@@ -222,3 +221,18 @@ table.cke_editor fieldset {
 	margin-left: 20px; 
 	margin-bottom: 5px; 
 } 
+
+[class*="col"] {
+	box-shadow: 0 1px 1px #ddd inset;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: #fff;
+    min-height: 5em;
+    margin-left: 0.5em;
+}
+[class*="col"]:first-child {
+	margin-left: -0.25em;
+}
+[class*="col"]:last-child {
+	margin-right: -0.5em;
+}
