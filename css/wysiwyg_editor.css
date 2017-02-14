@@ -222,6 +222,10 @@ table.cke_editor fieldset {
 	margin-bottom: 5px; 
 } 
 
+.ckeditor-template-row {
+	background: #eee;
+}
+
 [class*="col"] {
 	box-shadow: 0 1px 1px #ddd inset;
     border: 1px solid #cccccc;
