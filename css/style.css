@@ -1445,6 +1445,7 @@ div.widgets-element-horizontal {
 .two-col-left,
 .two-col-right,
 .three-col,
+.four-col,
 .accordion {
   /*padding: 8px;
   margin: 10px auto;
@@ -1504,6 +1505,17 @@ div.widgets-element-horizontal {
 .three-col .col-2{
   padding-left: 7.5px;
   padding-right: 7.5px;
+}
+
+.four-col .col {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.four-col .col:first-child {
+  padding-left: 0;
+}
+.four-col .col:last-child {
+  padding-right: 0;
 }
 
 .accordion {
