@@ -1606,14 +1606,15 @@ div.widgets-element-horizontal {
   font-size: 1.2em;
 }
 
-.panel {
+.panel, .box {
   border: 1px solid #785fa0;
   background-color: #efefef;
   padding: 8px;
   display: block;
   overflow: hidden;
 }
-.panel .panel-heading {
+.panel .panel-heading,
+.box .box-title {
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
