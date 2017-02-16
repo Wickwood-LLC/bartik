@@ -548,7 +548,7 @@ dd {
   padding: 8px;
 }
 
-.content p > img {
+.content img {
   border: 1px solid #785fa0;
   box-sizing: border-box;
   display: inline-block;
