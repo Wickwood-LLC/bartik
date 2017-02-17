@@ -188,7 +188,8 @@ table.cke_editor fieldset {
 	background: #fff; 
 	margin-left: 0; 
 	margin-right: 0; 
-	padding: 2px 5px; 
+	padding: 2px 5px;
+	overflow: hidden;
 } 
 .quotebox .byline { 
 	text-align: right; 
