@@ -1618,6 +1618,7 @@ div.widgets-element-horizontal {
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
+  overflow: hidden;
 }
 
 .media-element-container {
