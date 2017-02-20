@@ -1621,15 +1621,11 @@ div.widgets-element-horizontal {
   overflow: hidden;
 }
 
-.media-element-container {
-  display: inline-block;
-}
 .media-element-container .file-video .content {
   background: none;
   border: 0;
 }
 .media-element-container .content {
-  display: inline-block;
     background: #efefef;
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid purple;
