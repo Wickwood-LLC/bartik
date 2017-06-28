@@ -1625,7 +1625,7 @@ div.widgets-element-horizontal {
   background: none;
   border: 0;
 }
-.media-element-container .content {
+.media-element-container:not([class*='polaroid']) .content {
     background: #efefef;
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid purple;
